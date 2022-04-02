@@ -1,0 +1,866 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppin", sans-serif;
+    font-size: 30px;
+    width: 100%;
+}
+
+.header-div{
+    background-image:url("images/hero-6-cover\ sec-.jpg");
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+   position: relative;
+}
+ 
+.overlay-div{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.56);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+header h3{
+    font-weight: 300;
+   position: relative;
+   left: -40px;
+   top: -25px;
+   font-size: 1em;
+}
+header h3 a{
+    text-decoration: none;
+    color:#EDEDED;
+}
+
+.open-menu{
+    margin-top: 10px;
+}
+
+.close{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+   display: none;
+   opacity: 0.7;
+   margin-top: 20px;
+    
+}
+
+.nav-links{
+    display: none;
+}
+
+.login-section{
+    display: none;
+}
+
+.header-section{
+   text-align: center;
+   margin-top: 70px;
+}
+
+.join-para{
+   color: #FFC652;
+   font-size: 0.5em;
+}
+
+.quality-para{
+    color: #EDEDED;
+    text-transform: uppercase;
+    line-height: 1.7em;
+}
+
+.goal-para{
+    color: #EDEDED;
+    font-size: 0.7em;
+    margin-top: 20px;
+}
+
+.join-bttn2{
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FF6551;
+    color: #EDEDED;
+    margin-top: 40px;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    /* background-color: #FFFFFF; */
+    background-color: #FF6551;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.small-box{
+    width: 40px;
+    height: 40px;
+    background-color: #B6D7FF;
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.sub-head{
+    font-size: 0.5em;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #252B42;
+}
+
+.sub-head3{
+    font-size: 0.5em;
+    padding-top: 30px;
+    padding-left: 20px;
+    color: #252B42;
+}
+
+.tiny-line{
+    width: 30px;
+    position: absolute;
+    top: 120px;
+    padding-left: 20px;
+}
+
+.tiny-line3{
+    width: 30px;
+    position: absolute;
+    top: 120px;
+    padding-left: 20px;
+}
+
+.img{
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.para3{
+    color: white;
+    }
+
+.box1 p{
+    font-size: 0.4em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #737373;
+    position: relative;
+    top: 10px;
+}
+
+.section1{
+    position: relative;
+    top: 80px;
+    margin-bottom: 70px;
+}
+
+.atm{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+
+.scores{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    z-index: 1;
+}
+
+.school-boy{
+    height: 200px;
+    width: 180px;
+    position: relative;
+    top: -20px;
+    left: -10px;
+    
+}
+
+.global{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+   top: 70px;
+   left: 220px;
+}
+
+.boy-bg{
+    background-image: url("images/Ellipse\ 27.png");
+    width: 170px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: auto;
+   
+}
+
+.section1-para{
+    text-align: center; 
+}
+
+.section1-para img{
+      width: 45px;
+      height: 4px;
+      margin-left: 5px;
+      margin-top: 40px;
+}
+
+.section1-para h4{
+    font-size: 0.8em;
+}
+
+.section1-para p{
+    font-size: 0.4em;
+   margin: auto;
+}
+
+.more{
+    padding-top: 30px;
+    color: #FF6551;
+    cursor: pointer;
+}
+
+.more svg{
+     padding-left: 5px;  
+     /* padding-top: 20px; */
+     height: 10px;
+     cursor: pointer;
+}
+
+.video-div{
+    background-image: url("images/features-11-video-thumb.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    margin-top: 30px;
+  
+}
+
+/* .video{
+    width: 250px;
+    height: 150px;
+   
+    position: relative;
+} */
+
+
+.video-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#video-play{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+   right: 50%;
+   top: 40%;
+}
+
+.section2{
+    margin-top: 150px;
+}
+
+.section2-para{
+    text-align: center;
+}
+
+.section2-para p{
+     font-size: 0.4em;
+}
+
+.section2-para h4{
+    font-size: 0.8em;
+}
+
+.section2-para img{
+    width: 45px;
+    height: 4px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.section3{
+    margin-top: 80px;
+    margin-left: 10%;
+}
+
+.course-para {
+    font-size: 0.5em;
+    color: #FF6551;
+}
+
+.section3-para h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.7em;
+}
+
+.course-para2{
+    font-size: 0.5em;
+}
+
+/* section4 */
+.section4{
+    margin: 50px 0 0 0;
+   
+}
+.first-bg{
+    background-image: url("images/product-cover-133\ sec-.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin-left: 35px;
+    margin-top: 50px;
+    height: 300px;
+    
+}
+
+.sale-bttn{
+    margin-left: 27px;
+    background-color: #FF6551;
+    border: none;
+    color: white;
+    padding: 0 8px;
+}
+
+.like-bttns{
+    margin-top: 220px;
+    margin-left: 60px;
+}
+
+.section4-para{
+    /* text-align: center; */
+    margin-left: 60px;
+}
+
+.section4-title{
+    font-size: 0.6em;
+    color: #FF6551;
+}
+
+.section4-para h5{
+     margin: 0;
+     font-size: 0.6em;
+}
+
+.focus-para{
+    font-size: 0.5em;
+}
+
+.number-sale, .amount{
+    font-size: 0.4em;
+    color: #737373;
+}
+
+.amount span{
+    color: #26335D;
+}
+
+.section4-para button{
+    color: #FF6551;
+    border-radius: 12px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 3px solid #FF6551;
+}
+
+.second-bg{
+    background-image: url("images/product-cover-131.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin-left: 35px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.third-bg{
+    background-image: url("images/product-cover-130\ sec-.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin-left: 35px;
+    height: 300px;
+    margin-top: 50px;
+    
+}
+
+.fourth-bg{
+    background-image: url("images/product-cover-132\ sec-.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin-left: 35px;
+    height: 300px;
+    margin-top: 50px;
+   
+}
+
+/* section5 */
+
+.section5{
+    margin-top: 50px;
+    background-color: #26335D;
+    width: 100%;
+    height: 2500px;
+}
+
+.section5-para{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.advice-para {
+    font-size: 0.5em;
+    color: #FF6551;
+}
+
+.section5-para h5{
+    margin: 0;
+    font-size: 0.6em;
+    color: white;
+}
+
+.advice-para2{
+    font-size: 0.5em;
+    color: white;
+}
+
+.free-courses{
+   width: 210px;
+   height: 700px;
+   background-color: white;
+   margin: auto;
+   margin-top: 30px;
+   /* text-align: center; */
+    
+}
+
+.free{
+    font-weight: 600;
+    font-size: 0.5em;
+    margin-left: 20px;
+}
+
+.organize{
+    font-size: 0.5em;
+    margin-left: 20px;
+    
+}
+
+.love-icon{
+    margin: 20px 0 0 20px;
+}
+
+.free-courses button{
+    padding: 10px 48px;
+    border: none;
+    background-color: #FF6551;
+    color: white;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.free-amount{
+    margin: 0 0 0 20px;
+    color: #FF6551;
+}
+
+.month{
+    color: #8EC2F2;
+    font-size: 0.7em;
+    margin: 0 0 0 20px;
+}
+
+.services{
+    font-size: 0.5em;
+    margin-left: 20px;
+}
+/* Testimonial-Section */
+.testimonial-para{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.testimonial-para h5{
+    margin: 0;
+    font-size: 0.6em;
+}
+
+.testimonial-para2{
+    font-size: 0.5em;
+}
+
+.user1 img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.user1{
+    text-align: center;
+    font-size: 0.35em;
+    margin-top: 50px;
+}
+
+/* Newsletter */
+.newsletter-para{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.newsletter-para h5{
+    margin: 0;
+    font-size: 0.6em;
+}
+
+.newsletter-para2{
+    font-size: 0.4em;
+}
+
+input[type=email]{
+    border: 1px solid rgb(201, 197, 197) ;
+    background-color: rgb(235, 229, 229);
+    height: 26px;
+    border-radius: 2px;
+}
+
+.newsletter-para button{
+    padding: 7px 15px;
+    background-color: #FF6551;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    margin-top: 70px;
+    margin-bottom: 60px;
+    
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+    /* text-align: center; */
+}
+
+footer li a{
+    text-decoration: none;
+    font-size: 0.5em;
+    color: #737373;
+    padding-top: 5px;
+   line-height: 0.2em;
+}
+
+footer h6{
+    margin: 20px 0 0 20px;
+    
+}
+
+@media screen and (min-width: 500px){
+     /* .section4{
+         margin-left: 70px;
+     }
+
+     .container-boxes{
+         display: flex;
+         justify-content: center;
+     } */
+}
+@media screen and (min-width: 1000px){
+    .open-menu{
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links ul{
+        display: flex;
+        padding: 0;
+    }
+
+    .nav-links li{
+        list-style: none;
+    }
+    
+    .nav-links li a{
+        text-decoration: none;
+        padding: 1.5rem;
+        font-size: 1.2rem;
+        color: #EDEDED;
+    }
+    
+
+    .login-section{
+        display: flex;
+        padding: 1.5rem;
+    }
+
+    .quality-para{
+        font-size: 3em;
+        line-height: 1.5em;
+    }
+
+    .header-div{
+        height: 1000px;
+    }
+
+    .goal-para{
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+    .join-para{
+        font-size: 0.8em;
+    }
+
+    header h3{
+        /* padding-top: 1.5rem; */
+        font-weight: 700;
+        font-size: 1.6em;
+        margin-left: 20px;
+    }
+
+    .join-bttn2{
+        font-size: 0.7em;
+        margin-top: 20px;
+    }
+
+    .login-section a{
+        text-decoration: none;
+        color: #EDEDED;
+        margin-left: 5px;
+        font-size: 0.7em;
+    }
+
+    .join-bttn{
+        display: inline; 
+        margin-top: 20px;
+        position: relative;
+        top: -35px;
+        left: 20px;
+        font-size: 0.7em;
+        background-color: #FF6551;
+        color: #EDEDED;
+        border: none;
+        padding: 0 20px 0 20px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .box1{
+        margin: 0 15px;
+        width: 210px;
+        height: 210px;
+    }
+
+    .container-boxes{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: -85px;
+    }
+
+    .sub-head3{
+        color: white;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .boy-bg{
+        width: 230px;
+    }
+
+    .school-boy{
+        width: 220px;
+        height: 230px;
+    }
+
+    .section1-img{
+        padding-right: 30px;
+    }
+
+    .section1-para{
+        padding-left: 70px;
+        width: 25%;
+    }
+
+    .section1-para h4{
+        font-size: 1em;
+    }
+
+    .section1-para p{
+        font-size: 0.4em;
+    }
+    
+    .more span{
+        font-size: 1em;
+    }
+
+    .atm{
+        position: absolute;
+        left: 24%;
+        width: 80px;
+        height: 40px;
+    }
+
+    .scores{
+        position: absolute;
+        left: 26%;
+        top: 75%;
+        width: 130px;
+        height: 70px;
+    }
+
+    .global{
+        position: absolute;
+        left: 39%;
+        top: 45%;
+        height: 90px;
+        width: 90px;
+    }
+
+    .section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
+    .video-div{
+        margin: 0;
+    }
+
+    .section2-para{
+       width: 40%;
+       padding-right: 0;
+       
+    }
+
+    .section2-para p{
+        justify-content: left;
+    }
+
+    .video-div{
+        margin-right: 22%;
+    }
+
+    .section3{
+        margin-left: 20%;
+    }
+
+    .section4{
+        display: flex;
+        justify-content: center;
+    }
+
+    .like-bttns{
+        margin-top: 200px;
+    }
+
+    .section5-para{
+        margin-left: 25%;
+    }
+
+    .section5{
+        height: 900px;
+    }
+
+    .free-courses{
+        margin: 30px;
+        width: 250px;
+        height: 600px;
+    }
+
+    .freeCourse-flexDiv{
+        display: flex;
+        justify-content: center;
+    }
+
+    .free-courses button{
+        margin-left: 40px;
+        padding: 10px 55px;
+    }
+
+    .testimonial-user{
+        display: flex;
+        justify-content: center;
+    }
+
+     .testimonial-para{
+         margin-left: 25%;
+     }
+
+    .user1{
+        margin: 40px 70px 20px 70px;
+    }
+
+    input[type=email]{
+        width: 400px;
+        height: 45px;
+    }
+
+    .newsletter-para button{
+        padding: 15px 35px;
+    }
+   
+    footer{
+        display: flex;
+        justify-content: center;
+        text-align: unset;
+    }
+
+    footer ul{
+        margin: 0 20px ;
+    }
+
+    footer h6{
+        margin-left: 60px;
+    }
+
+} 
+
