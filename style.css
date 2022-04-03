@@ -110,9 +110,9 @@ header h3 a{
     height: 200px;
     background-color: #FFFFFF;
     /* background-color: #FF6551; */
-    /* margin: auto;
+    margin: auto;
     margin-top: 20px;
-    position: relative; */
+    position: relative;
     box-shadow:  0 15px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -121,9 +121,9 @@ header h3 a{
     height: 210px;
     
     background-color: #FF6551;
-    /* margin: auto;
+    margin: auto;
     margin-top: 20px;
-    position: relative; */
+    position: relative;
     box-shadow:  0 8px 8px 0 rgba(0, 0, 0, 0.2);
 
 }
@@ -715,7 +715,7 @@ footer h6{
         text-align: center;
     }
 
-    .box1{
+    .box1, .box2{
         margin: 0 15px;
         width: 210px;
         height: 210px;
