@@ -99,15 +99,35 @@ header h3 a{
     margin-top: 40px;
 }
 
+.container-boxes{
+    margin: auto;
+    margin-top: 20px;
+    position: relative; 
+}
+
 .box1{
     width: 200px;
     height: 200px;
-    /* background-color: #FFFFFF; */
-    background-color: #FF6551;
-    margin: auto;
+    background-color: #FFFFFF;
+    /* background-color: #FF6551; */
+    /* margin: auto;
     margin-top: 20px;
-    position: relative;
+    position: relative; */
+    box-shadow:  0 15px 15px 0 rgba(0, 0, 0, 0.3);
 }
+
+.box2{
+    width: 200px;
+    height: 210px;
+    
+    background-color: #FF6551;
+    /* margin: auto;
+    margin-top: 20px;
+    position: relative; */
+    box-shadow:  0 8px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
 
 .small-box{
     width: 40px;
@@ -163,6 +183,16 @@ header h3 a{
     padding-left: 20px;
     padding-right: 20px;
     color: #737373;
+    position: relative;
+    top: 10px;
+}
+
+.box2 p{
+    font-size: 0.4em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
     position: relative;
     top: 10px;
 }
