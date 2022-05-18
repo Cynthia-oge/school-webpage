@@ -417,6 +417,7 @@ header h3 a{
 
 .amount span{
     color: #26335D;
+    font-weight: 800;
 }
 
 .section4-para button{
@@ -826,6 +827,7 @@ footer h6{
     .section4{
         display: flex;
         justify-content: center;
+        /* flex-wrap: wrap; */
     }
 
     .like-bttns{
