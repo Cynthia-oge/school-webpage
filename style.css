@@ -703,7 +703,7 @@ footer h6{
 
     .join-bttn{
         display: inline; 
-        margin-top: 20px;
+        margin-top: 30px;
         position: relative;
         top: -35px;
         left: 20px;
@@ -711,7 +711,7 @@ footer h6{
         background-color: #FF6551;
         color: #EDEDED;
         border: none;
-        padding: 0 20px 0 20px;
+        padding: 10px 25px;
         border-radius: 4px;
         text-align: center;
     }
